@@ -1,0 +1,47 @@
+package com.jspiders.MobilePattern.Builder;
+
+public class LaptopBuilder {
+	private String brand;
+	private String processor;
+	private String color;
+	private double price;
+	private int ram;
+	private int ssd;
+	private String os;
+	private int Graphic;
+	private int Battery;
+	private double disp_size;
+	
+	public LaptopBuilder brand (String brand) {
+		this.brand= brand;
+		return this;
+	}
+	public LaptopBuilder processor (String processor) {
+		this.processor= processor;
+		return this;
+	}
+	public LaptopBuilder color (String color) {
+		this.color= color;
+		return this;
+	}
+	public LaptopBuilder os (String os) {
+		this.os= os;
+		return this;
+	}
+	public LaptopBuilder ram (int ram) {
+		this.ram= ram;
+		return this;
+	}
+	public LaptopBuilder ssd (int ssd) {
+		this.ssd= ssd;
+		return this;
+	}
+	public LaptopBuilder Graphic (int Graphic) {
+		this.Graphic= Graphic;
+		return this;
+	}
+	public LaptopBuilder Battery (int Battery) {
+		this.Battery= Battery;
+		return this;
+	}
+}

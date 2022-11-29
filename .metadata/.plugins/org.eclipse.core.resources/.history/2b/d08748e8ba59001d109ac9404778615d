@@ -1,0 +1,9 @@
+
+package com.jspiders.SingletonAccount.Transaction;
+
+public class CheckBalance {
+	public void checkBalance()
+	{
+		System.out.println(accountBal);
+	}
+}

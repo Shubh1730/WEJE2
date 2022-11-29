@@ -1,0 +1,39 @@
+package com.jspiders.MobilePattern.Object;
+
+public class Laptop {
+	
+	private String brand;
+	private String processor;
+	private String color;
+	private double price;
+	private int ram;
+	private int ssd;
+	private String os;
+	private int Graphic;
+	private int Battery;
+	private double disp_size;
+	
+	public Laptop(String brand, String processor, String color, double price, int ram, int ssd, String os, int graphic,
+			int battery, double disp_size) {
+		super();
+		this.brand = brand;
+		this.processor = processor;
+		this.color = color;
+		this.price = price;
+		this.ram = ram;
+		this.ssd = ssd;
+		this.os = os;
+		Graphic = graphic;
+		Battery = battery;
+		this.disp_size = disp_size;
+	}
+
+	@Override
+	public String toString() {
+		return "Laptop [brand=" + brand + ", processor=" + processor + ", color=" + color + ", price=" + price
+				+ ", ram=" + ram + ", ssd=" + ssd + ", os=" + os + ", Graphic=" + Graphic + ", Battery=" + Battery
+				+ ", disp_size=" + disp_size + "]";
+	}
+	
+		
+}

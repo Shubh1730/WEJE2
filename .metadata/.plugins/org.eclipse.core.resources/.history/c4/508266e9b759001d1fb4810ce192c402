@@ -1,0 +1,5 @@
+package com.jspiders.SingletonAccount.Transaction;
+
+public class Withdraw {
+
+}

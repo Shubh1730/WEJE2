@@ -1,0 +1,15 @@
+package com.pro;
+
+public class patt {
+	public static void main(String[] args) {
+		
+		for (int i = 0; i < 3; i++) {
+			int n=6;
+			for (int j = i; j < 3; j++) {
+				System.out.print(n);
+			}
+			n++;n++;n++;n++;n++;n++;
+			System.out.println();
+		}
+	}
+}

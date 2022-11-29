@@ -1,0 +1,12 @@
+package com.jspiders.MobilePattern.aBuilderMain;
+
+import com.jspiders.MobilePattern.Builder.MobileBuilder;
+import com.jspiders.MobilePattern.Object.Mobile;
+
+public class MobileMain {
+	public static void main(String[] args) {
+		Mobile mobile=new MobileBuilder().color("Black").disp_size(5.6).f_cam(20).price(50000.00).getMobile();
+		System.out.println(mobile);
+	}
+
+}

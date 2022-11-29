@@ -1,0 +1,17 @@
+package com.jspiders.SingletonAccount.Account;
+
+public class Account {
+	double accountBalance;
+	static Account account= new Account(10000.00);
+
+	
+	public Account(double accountBalance) {
+		super();
+		this.accountBalance = accountBalance;
+	}
+
+	public static Account getAccount() {
+		return account;
+	}
+	
+}

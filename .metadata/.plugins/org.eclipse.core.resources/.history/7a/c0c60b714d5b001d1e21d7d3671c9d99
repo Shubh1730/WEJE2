@@ -1,0 +1,6 @@
+package com.pro;
+
+public class Highest {
+	String s= "SSDDRRTTRPR";
+	char c=s.charAt
+}

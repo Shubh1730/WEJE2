@@ -1,0 +1,5 @@
+package com.jspiders.MobilePattern.Builder;
+
+public class MobileBuilder {
+
+}
