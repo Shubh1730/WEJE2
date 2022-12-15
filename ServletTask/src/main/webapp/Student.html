@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Insert title here</title>
+    <style>
+        body{
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+            background-image: url(./workspace-ga5ae62326_1920.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            background-color:silver hh;
+             
+        }
+        .box{
+            height:450px;
+            width: 800px;
+            /* border: 1px solid; */
+            margin: 0 auto;
+           /* background-image: url(.); */
+           background-size: cover;
+           opacity: .5;
+           background-color: rgb(4, 2, 2);
+           position: relative;
+           color: white;
+           border-radius: 20px;
+            box-shadow:  black 10px 20px 5px;
+        }
+        h1{
+             color:black;
+             margin-left: 500px;
+             font-family: 'Times New Roman', Times, serif;
+             margin-top: 75px;
+             font-style:oblique;
+             font-size: 40px;
+        }
+        label{
+            letter-spacing: 5px;
+            margin-left: 100px;
+           font-family: 'Times New Roman', Times, serif;
+        }
+        input{
+            font-family: 'Times New Roman', Times, serif;
+        }
+        select{
+            font-family: 'Times New Roman', Times, serif;
+            margin-left: 25px;
+            width:150px;
+            height: 25px;
+        }
+       
+      
+    </style>
+</head>
+<body>
+ <h1><u>* REGISTRATION FORM *</u></h1>
+    
+        <div class="box">
+        <form action="./Student" method="post"><br> <br>
+          <label for="" style="margin: top 50px;">NAME: </label>
+          <input type="text" name="name" id=""placeholder="Enter Your Name" style="margin-left: 50px;width:300px;height: 25px; "> <br> <br>
+          <label for="">EMAIL: </label>
+          <input type="text" name="email" id="" placeholder="Enter Your Email" style="margin-left: 40px;width:300px;height: 25px;"> <br><br>
+          <label for="">CONTACT: </label>
+          <input type="tel" name="contact" id=""placeholder="Enter Your 10 Digit Number" style="margin-left: 10px;width:300px;;height: 25px;"><br><br>
+          <label for="">COURSE: </label>
+          <select name="course">
+            <option value=""selected disabled>Choose Your Course</option>
+            <option>JAVA</option>
+            <option>PYTHON</option>
+            <option>SQL</option>
+            <option>WEB-TECH</option>
+            <option>ADVANCED-JAVA</option>
+            <option>JAVASCRIPT</option>
+            
+          </select><br><br>
+          <label for="">PLACE:</label>
+          <input type="text" name="place" id=""placeholder="Enter Your City" style="margin-left: 50px;width:300px;height: 25px; "> 
+          <br><br>
+          <label for="">GENDER: </label>
+           <input type="radio" name="gender" id="male">
+           MALE <br><br>
+           <input type="radio" name="gender" id="female" style="margin-left: 220px;">
+           FEMALE <br><br>
+           <input type="submit" name="submit" style="margin-left: 300px;height: 30px; width: 100px">
+            
+        </form>
+   
+    </div>
+</body>
+</html>

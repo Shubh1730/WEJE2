@@ -26,10 +26,13 @@
 	</section>
 	<section name="Maven2ProjectWizardArchifactPage">
 		<list key="package">
+			<item value="com.jspiders.hibernate3.hibernate4"/>
 		</list>
 		<list key="groupId">
+			<item value="com.jspiders.hibernate3"/>
 		</list>
 		<list key="artifactId">
+			<item value="hibernate4"/>
 		</list>
 		<list key="projectNameTemplate">
 			<item value="[artifactId]"/>

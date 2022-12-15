@@ -19,7 +19,7 @@ public class jdbcupdate {
 			connection=(Connection) DriverManager.getConnection("jdbc:mysql://"+"localhost:3306/weje2?"+"user=root&password=root");
 			
 			statement=connection.createStatement();
-			  result=statement.executeUpdate("update Student set name='Vaishnavi' where id=5");
+			  result=statement.executeUpdate("update Student set name='Vaishu' where id=5");
 			  System.out.println(result+"rows affected");
 			
 		} catch (ClassNotFoundException e) {

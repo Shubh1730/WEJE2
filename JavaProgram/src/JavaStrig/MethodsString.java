@@ -21,7 +21,7 @@ public class MethodsString {
 //		to find the string is empty or not
 		System.out.println(p.isEmpty());
 //		replce the char in String
-		System.out.println(o.replace('g', 'm'));
+		System.out.println(o.replace('o', 'm'));
 	
 	}
 

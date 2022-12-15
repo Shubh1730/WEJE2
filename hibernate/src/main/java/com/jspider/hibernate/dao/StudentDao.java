@@ -43,12 +43,13 @@ public class StudentDao {
 		student.setName("sanket");
 		student.setEmail("samket12@gmail.com");
 		student.setCont(1234567890L);
+		maneger.persist(student);
+		
 		StudentDTO student1= new StudentDTO();
 		student1.setId(3);
 		student1.setName("vijay");
 		student1.setEmail("ijay12@gmail.com");
 		student1.setCont(1654567890L);
-		maneger.persist(student);
 		maneger.persist(student1);
 		transaction.commit();
 	} finally {
